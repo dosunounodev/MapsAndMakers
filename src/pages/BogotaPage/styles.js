@@ -1,12 +1,17 @@
 import styled from "styled-components";
 
-const HomePageContainer = styled.section`
+const BogotaSection = styled.section`
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
+
+  .bogota-container {
+    width: 100px;
+    height: 100px;
+    /* background-color: red; */
+  }
 
   h2 {
     text-align: center;
@@ -32,4 +37,4 @@ const HomePageContainer = styled.section`
   }
 `;
 
-export { HomePageContainer };
+export { BogotaSection };

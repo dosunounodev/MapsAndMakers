@@ -27,13 +27,12 @@ const MainContainer = styled.main`
   display: flex;
   align-items: center;
   width: 100%;
-  min-height: calc(100vh - 130px);
-  height: 100%;
+  height: calc(100vh - 130px);
   padding: 20px;
 
   @media screen and (min-width: 1024px) {
     top: 50px;
-    min-height: calc(100vh - 100px);
+    height: calc(100vh - 100px);
   }
 `;
 
