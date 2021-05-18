@@ -1,0 +1,30 @@
+// Base
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition-property: color, text-decoration;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+  will-change: color, text-decoration;
+
+  &:hover {
+    color: crimson;
+    text-decoration: underline;
+  }
+}
