@@ -9,7 +9,7 @@ const NavBar = () => {
         <li>
           <NavLink
             exact
-            to="/"
+            to="/MapsAndMakers/"
             activeStyle={{
               color: "crimson",
             }}
@@ -20,7 +20,7 @@ const NavBar = () => {
         <li>
           <NavLink
             exact
-            to="/bogota"
+            to="/MapsAndMakers/bogota"
             activeStyle={{
               color: "crimson",
             }}
@@ -32,7 +32,7 @@ const NavBar = () => {
         <li>
           <NavLink
             exact
-            to="/map"
+            to="/MapsAndMakers/map"
             activeStyle={{
               color: "crimson",
             }}
@@ -44,7 +44,7 @@ const NavBar = () => {
         <li>
           <NavLink
             exact
-            to="/favorites"
+            to="/MapsAndMakers/favorites"
             activeStyle={{
               color: "crimson",
             }}
