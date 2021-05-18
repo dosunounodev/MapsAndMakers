@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MapsAndMakers/static/css/main.e3a092c5.chunk.css",
-    "main.js": "/MapsAndMakers/static/js/main.174f566a.chunk.js",
-    "main.js.map": "/MapsAndMakers/static/js/main.174f566a.chunk.js.map",
+    "main.js": "/MapsAndMakers/static/js/main.69dfde54.chunk.js",
+    "main.js.map": "/MapsAndMakers/static/js/main.69dfde54.chunk.js.map",
     "runtime-main.js": "/MapsAndMakers/static/js/runtime-main.6f87116b.js",
     "runtime-main.js.map": "/MapsAndMakers/static/js/runtime-main.6f87116b.js.map",
     "static/js/2.06d193f0.chunk.js": "/MapsAndMakers/static/js/2.06d193f0.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.6f87116b.js",
     "static/js/2.06d193f0.chunk.js",
     "static/css/main.e3a092c5.chunk.css",
-    "static/js/main.174f566a.chunk.js"
+    "static/js/main.69dfde54.chunk.js"
   ]
 }
