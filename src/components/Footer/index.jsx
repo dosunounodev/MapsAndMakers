@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <FooterContent>
       <p>
-        <Link to="/">Maps and Makers</Link> © 2021 by{" "}
+        <Link to="/MapsAndMakers/">Maps and Makers</Link> © 2021 by{" "}
         <a href="https://tuprop.co" target="_blank" rel="noreferrer">
           TuProp
         </a>

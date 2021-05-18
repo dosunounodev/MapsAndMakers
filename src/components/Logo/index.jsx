@@ -5,7 +5,7 @@ import { MainLogo } from "./style";
 const Logo = () => {
   return (
     <MainLogo>
-      <Link to="/">
+      <Link to="/MapsAndMakers/">
         <span>📍</span> Maps & Markers
       </Link>
     </MainLogo>
