@@ -21,10 +21,9 @@ a {
   transition-property: color, text-decoration;
   transition-duration: 0.3s;
   transition-timing-function: linear;
-  will-change: color, text-decoration;
+  will-change: color;
 
   &:hover {
     color: crimson;
-    text-decoration: underline;
   }
 }

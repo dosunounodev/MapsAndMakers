@@ -7,24 +7,48 @@ const NavBar = () => {
     <TopNav>
       <ul>
         <li>
-          <NavLink exact to="/">
+          <NavLink
+            exact
+            to="/"
+            activeStyle={{
+              color: "crimson",
+            }}
+          >
             Inicio
           </NavLink>
         </li>
         <li>
-          <NavLink exact to="/map">
+          <NavLink
+            exact
+            to="/bogota"
+            activeStyle={{
+              color: "crimson",
+            }}
+          >
             Bogotá
           </NavLink>
         </li>
 
         <li>
-          <NavLink exact to="/map">
+          <NavLink
+            exact
+            to="/map"
+            activeStyle={{
+              color: "crimson",
+            }}
+          >
             Ubicación
           </NavLink>
         </li>
 
         <li>
-          <NavLink exact to="/favorites">
+          <NavLink
+            exact
+            to="/favorites"
+            activeStyle={{
+              color: "crimson",
+            }}
+          >
             Favoritos
           </NavLink>
         </li>
