@@ -5,13 +5,13 @@ const NavList = () => {
   return (
     <ul>
       <li>
-        <Link to="/MapsAndMakers/bogota">📍 Recorrer Bogotá</Link>
+        <Link to="/bogota">📍 Recorrer Bogotá</Link>
       </li>
       <li>
-        <Link to="/MapsAndMakers/map">🗺 Recorrer Tu Ubicación Actual</Link>
+        <Link to="/map">🗺 Recorrer Tu Ubicación Actual</Link>
       </li>
       <li>
-        <Link to="/MapsAndMakers/favorites">⭐️ Guardar Spots Favoritos</Link>
+        <Link to="/favorites">⭐️ Guardar Spots Favoritos</Link>
       </li>
     </ul>
   );

@@ -13,15 +13,11 @@ const AppRouter = () => {
       <Layout>
         <Switch>
           <Route exact path="/MapsAndMakers/" component={HomePage} />
-          <Route exact path="/MapsAndMakers/bogota" component={BogotaPage} />
-          <Route exact path="/MapsAndMakers/map" component={MapPage} />
-          <Route
-            exact
-            path="/MapsAndMakers/favorites"
-            component={FavoritesPage}
-          />
-          <Route exact path="/MapsAndMakers/404" component={NotFound} />
-          <Route path="/MapsAndMakers/*" component={NotFound} />
+          <Route exact path="/" component={HomePage} />
+          <Route exact path="/bogota" component={BogotaPage} />
+          <Route exact path="/map" component={MapPage} />
+          <Route exact path="/favorites" component={FavoritesPage} />
+          <Route path="*" component={NotFound} />
         </Switch>
       </Layout>
     </Router>
