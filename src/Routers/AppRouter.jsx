@@ -20,7 +20,7 @@ const AppRouter = () => {
             path="/MapsAndMakers/favorites"
             component={FavoritesPage}
           />
-          <Route path="/MapsAndMakers/*" component={NotFound} />
+          <Route path="/MapsAndMakers/404" component={NotFound} />
         </Switch>
       </Layout>
     </Router>
