@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Layout from "components/Layout";
 import HomePage from "pages/HomePage";
 import BogotaPage from "pages/BogotaPage";
-import MapPage from "pages/MapPage";
+import LocationPage from "pages/LocationPage";
 import FavoritesPage from "pages/FavoritesPage";
 import NotFound from "pages/NotFound";
 
@@ -15,7 +15,7 @@ const AppRouter = () => {
           <Route exact path="/MapsAndMakers/" component={HomePage} />
           <Route exact path="/" component={HomePage} />
           <Route exact path="/bogota" component={BogotaPage} />
-          <Route exact path="/map" component={MapPage} />
+          <Route exact path="/map" component={LocationPage} />
           <Route exact path="/favorites" component={FavoritesPage} />
           <Route path="*" component={NotFound} />
         </Switch>
