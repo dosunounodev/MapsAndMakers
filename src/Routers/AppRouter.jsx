@@ -12,7 +12,9 @@ const AppRouter = () => {
     <Router>
       <Layout>
         <Switch>
+          {/* Fallback para ghpages */}
           <Route exact path="/MapsAndMakers/" component={HomePage} />
+          {/* OK Routes */}
           <Route exact path="/" component={HomePage} />
           <Route exact path="/bogota" component={BogotaPage} />
           <Route exact path="/map" component={LocationPage} />
